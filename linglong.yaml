@@ -1,0 +1,18 @@
+package:
+  id: deepin-shortcut-viewer
+  kind: lib
+  version: 5.0.5
+
+runtime:
+  id: org.deepin.Runtime
+  version: 20.5.0
+
+source:
+  kind: git
+  url: https://github.com/linuxdeepin/deepin-shortcut-viewer.git
+  version: 5.0.5
+  commit: 703e2053e99eae1fc53917ff0a8009aee1307692
+
+  patch: []
+build:
+  kind: qmake
