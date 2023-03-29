@@ -3,8 +3,8 @@ package:
   kind: lib
   version: 5.0.5
 
-runtime:
-  id: org.deepin.Runtime
+base:
+  id: org.deepin.base
   version: 23.0.0
 
 source:
